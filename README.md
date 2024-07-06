@@ -11,5 +11,5 @@ Access articles on discipline, education, and building strong family relationshi
 Join our forums to connect with other parents and share experiences.
 
 # Contact Us
-If you have any questions, suggestions, or feedback, please don't hesitate to contact us at <a href="mailto:support@parentadvice.com">support@parentadvice.com</a>. We'd love to hear from you!
+If you have any questions, suggestions, or feedback, please don't hesitate to contact us at _________________. We'd love to hear from you!
  We hope you find our website helpful and informative.
