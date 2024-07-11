@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parenting Wise - Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="src/login.css">
 </head>
 
 <body>
@@ -26,11 +26,12 @@
                     <label>
                         <input id="cb" type="checkbox" name="remember"> Remember me
                     </label>
-                    <a href="/forgot-password">Forgot Password</a>
+                    <a href="/forgot-password" class="forgot-password">Forgot Password</a>
                 </div>
-                <button type="submit"><a href="index.html">Login</a></button>
+                <button type="submit" onclick=solve() class="loginbtn"><a href="index.html">Login</a></button>
+                <div class="home">Back to <a href="index.html">Home</a></div>
 
-                <p>Don’t have an account? <b><a href="/signup"> Sign Up </a></b>
+                <p class="signup">Don’t have an account? <b><a href="/signup" class="signup"> Sign Up </a></b>
                 </p>
 
 
