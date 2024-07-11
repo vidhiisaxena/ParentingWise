@@ -1,0 +1,84 @@
+main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+nav, footer {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.i2 {
+  filter: brightness(50%);
+}
+.i3 {
+  filter: brightness(50%);
+}
+.i1 {
+  filter: brightness(95%);
+}
+h5 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.img {
+  font-size: 25px;
+}
+.our-motive{
+  text-align: center;
+  padding: 18px 0;
+}
+.motive{
+  font-size: 15px;
+}
+.line{
+  width: 50px;
+  height: 5px;
+  margin: 10px !important;
+}
+/*footer*/
+.footer {
+  background-color: #f3c9d3;
+  padding: 18px 0;
+  border-top: 1px solid #fdfdfd;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fa698b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f1315e;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin-top: 20px;
+}
+.header{
+  text-align: center;
+}
