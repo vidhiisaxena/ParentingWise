@@ -1,14 +1,14 @@
-:root{
-  --primary-color:#f1315e;
+:root {
+  --primary-color: #f1315e;
   --second: #fa698b;
-  --third:#f3c9d3;
-
+  --third: #f3c9d3;
 }
 main {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
-nav, footer {
+nav,
+footer {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
@@ -28,19 +28,47 @@ h5 {
 .img {
   font-size: 25px;
 }
-.our-motive{
+.community-title{
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.our-motive,
+.community {
   text-align: center;
   padding: 18px 0;
+  margin-top: 30px;
 }
-.motive{
-  font-size: 15px;
+.content{
+  font-size: 18px;
+  font-weight: 100px;
+  text-align: justify;
+}
+.motive {
+  font-size: 18px;
   color: #444444;
+  padding: 10px 0px;
 }
-.line{
-  width: 50px;
-  height: 5px;
-  margin: 10px !important;
+.attribute-tab {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
+.title {
+  font-weight: 500;
+}
+.attributes {
+  text-align: center;
+}
+.attribute-bar {
+  padding: 18px 0px;
+  margin-bottom: 30px;
+}
+.attribute {
+  background-color: var(--second) !important;
+  border: var(--second) !important;
+  padding: 10px !important;
+}
+
 /*footer*/
 .footer {
   background-color: #f3c9d3;
@@ -63,6 +91,7 @@ h5 {
 
 .footer ul {
   list-style: none;
+
   text-align: center;
   padding: 0;
   margin: 0;
@@ -86,20 +115,20 @@ h5 {
   color: #5a5a5a;
   margin-top: 20px;
 }
-.header{
+.header {
   text-align: center;
 }
-.newsletter{
+.newsletter {
   text-justify: left;
   text-align: center;
   margin-top: 0;
   padding-top: 0%;
 }
-.news{
+.news {
   text-align: center;
-    font-weight: 500;
+  font-weight: 500;
   font-size: 18px;
 }
-.subscribeBtn{
+.subscribeBtn {
   background: var(--second) !important;
 }
