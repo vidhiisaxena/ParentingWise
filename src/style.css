@@ -1,3 +1,9 @@
+:root{
+  --primary-color:#f1315e;
+  --second: #fa698b;
+  --third:#f3c9d3;
+
+}
 main {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -28,6 +34,7 @@ h5 {
 }
 .motive{
   font-size: 15px;
+  color: #444444;
 }
 .line{
   width: 50px;
@@ -50,7 +57,7 @@ h5 {
 .slogan {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: left;
 }
 
@@ -81,4 +88,18 @@ h5 {
 }
 .header{
   text-align: center;
+}
+.newsletter{
+  text-justify: left;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0%;
+}
+.news{
+  text-align: center;
+    font-weight: 500;
+  font-size: 18px;
+}
+.subscribeBtn{
+  background: var(--second) !important;
 }
