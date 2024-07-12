@@ -7,9 +7,11 @@ body {
     height: 100vh;
     background-color: #f8f9fa;
 }
-.loginbtn{
+
+.loginbtn {
     color: #f8f9fa;
 }
+
 .container {
     display: flex;
     width: 100%;
@@ -79,6 +81,10 @@ body {
     flex-direction: column;
 }
 
+.login-section form .loginbtn {
+    color: white;
+}
+
 .login-section input[type="text"],
 .login-section input[type="password"] {
     padding: 15px;
@@ -123,21 +129,24 @@ body {
     bottom: 10px;
     white-space: nowrap;
 }
+
 .login-section .forgot-password,
 .signup {
     color: #F7418F;
     text-decoration: none;
 
 }
-.login-section .home{
+
+.login-section .home {
     text-align: center;
     color: #F7418F;
 }
-.login-section a{
+
+.login-section a {
     text-decoration: none;
 }
 
-.login-section .loginbtn{
+.login-section .loginbtn {
     color: #f8f9fa;
     text-decoration: none;
 }
