@@ -81,8 +81,9 @@ body {
     flex-direction: column;
 }
 
-.login-section form .loginbtn {
+.login-section form button a {
     color: white;
+    font-size: 16px;
 }
 
 .login-section input[type="text"],
