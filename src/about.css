@@ -12,20 +12,13 @@ footer {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
-.navbar-text{
+.navbar-text {
   display: flex;
   justify-content: end;
 }
-.About-section h1{
-    text-align: center;
+.About-section h1 {
+  text-align: center;
 }
-:root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-
 h1,
 h2,
 h3 {
@@ -60,18 +53,18 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-
 .about-paragraphs {
   display: flex;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 10px 0;
 }
-
-
-
+.about {
+  text-align: justify;
+  margin-left: 10px;
+}
 
 /*footer*/
 .footer {
