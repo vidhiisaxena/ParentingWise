@@ -58,10 +58,10 @@
     <div class="main">
 
         <div class="new">
-            <img src="images/newborn3.jpg" alt="Image 1">
+            <img src="images/childcare2.jpg" alt="Image 12">
 
             <div class="text">
-                <h1>Child Care</h1>
+                <h1>Parenting</h1>
 
                 <p>Every baby is unique, and there's no one-size-fits-all approach to motherhood. Trust your instincts,
                     seek
@@ -102,10 +102,10 @@
             </p>
 
             <div class="buttons">
-                <a href="#newborn-care">NEWBORN CARE</a>
-                <a href="#baby-development">BABY SAFETY</a>
-                <a href="#baby-safety">BABY DEVELOPMENT</a>
-                <a href="#child-care">ADOLESCENCE</a>
+                <a href="#newborn-care">SELF CARE</a>
+                <a href="#baby-development">POSITIVE PARENTING</a>
+                <a href="#baby-safety">SPECIAL NEED CHILD</a>
+                <a href="#child-care">BASIC FIRST AID</a>
             </div>
         </div>
     </div>
@@ -204,6 +204,43 @@
                 </p>
             </div>
         </div>
+    </div>
+
+    <div class="sleepblock">
+        <p>
+            A sleep tracker is crucial for both parents and their newborn baby as it helps monitor and manage sleep
+            patterns,
+            ensuring both get the rest they need. For newborns, quality sleep is essential for growth, brain
+            development, and
+            overall health. Tracking sleep can identify issues such as irregular sleep patterns or disturbances,
+            enabling
+            timely interventions. For parents, especially those adjusting to the demands of caring for a newborn,
+            understanding their baby's sleep schedule can help them better plan their rest periods, reducing stress and
+            fatigue. Additionally, insights from sleep tracking can aid in establishing healthy sleep routines and
+            habits for
+            the baby, promoting long-term well-being for both the child and parents.
+        </p>
+        <div class="sleeptracker">
+            <h1>Sleep Tracker</h1>
+            <form id="sleep-form">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="sleep-time">Sleep Time (HH:MM):</label>
+                <input type="time" id="sleep-time" name="sleep-time" required>
+
+                <label for="wake-time">Wake Time (HH:MM):</label>
+                <input type="time" id="wake-time" name="wake-time" required>
+
+                <button type="submit">Add Entry</button>
+            </form>
+            <div id="sleep-entries">
+                <h2>Sleep Entries</h2>
+                <ul id="entries-list"></ul>
+            </div>
+        </div>
+        <script src="sleep.js"></script>
+
     </div>
 
     <div class="videos1">
