@@ -35,6 +35,7 @@ h5 {
 .community-title{
   padding-bottom: 20px;
   padding-top: 50px;
+  text-align: center;
 }
 .our-motive,
 .community {
@@ -72,7 +73,15 @@ h5 {
   border: var(--second) !important;
   padding: 10px !important;
 }
-
+.commbtn{
+  text-align: center;
+}
+.colour{
+  background-color: var(--third);
+}
+.Color{
+  color:var(--primary-color);
+}
 /*footer*/
 .footer {
   background-color: #f3c9d3;
