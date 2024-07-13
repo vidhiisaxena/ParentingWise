@@ -213,7 +213,7 @@ body {
     width: 90vh;
     height: 76vh;
     padding: 20px;
-    border: 1px solid #f3c9d3;
+    border: 1px solid #f7f0f1;
     border-radius: 10px;
     margin: 10px;
     background: #f3c9d3;
@@ -231,6 +231,7 @@ body {
     background: #f7f0f1;
     transition: all 0.5s ease 0s;
     transition-timing-function: ease-in;
+    box-shadow: rgba(128, 26, 50, 0.24) 0px 3px 8px;
 }
 
 .boxs h1 {
