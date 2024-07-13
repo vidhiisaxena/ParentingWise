@@ -1,25 +1,29 @@
 :root {
-  --primary-color: #f1315e;
-  --second: #fa698b;
-  --third: #f3c9d3;
+    --primary-color: #f1315e;
+    --second: #fa698b;
+    --third: #f3c9d3;
 }
+
 main {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
 }
+
 nav,
 footer {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
 }
-.navbar-text{
-  display: flex;
-  justify-content: end;
+
+.navbar-text {
+    display: flex;
+    justify-content: end;
 }
+
 body {
     margin: 0;
     font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+    font-weight: 400;
     background-color: rgb(255, 255, 255);
 }
 
@@ -157,6 +161,59 @@ body {
     background-color: rgb(232, 229, 229);
 }
 
+.contain {
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.boxs {
+    width: 90vh;
+    height: 55vh;
+    padding: 20px;
+    border: 1px solid #fae6eb;
+    border-radius: 10px;
+    margin: 10px;
+    background: #f6cad5;
+    color: white !important;
+    font-weight: 100;
+    text-transform: none;
+
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.boxs:hover {
+    color: #f8047ecc !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    transition: all 0.3s ease 0s;
+}
+
 .videos1 {
     margin: 50px;
 }
@@ -273,67 +330,72 @@ footer {
     border-radius: 10px;
     text-align: center;
 }
+
 /*footer*/
 .footer {
-  background-color: #f3c9d3;
-  padding: 18px 0;
-  border-top: 1px solid #fdfdfd;
+    background-color: #f3c9d3;
+    padding: 18px 0;
+    border-top: 1px solid #fdfdfd;
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
 }
 
 .slogan {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
 .footer ul {
-  list-style: none;
+    list-style: none;
 
-  text-align: center;
-  padding: 0;
-  margin: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .footer li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footer a {
-  color: #fa698b;
-  text-decoration: none;
+    color: #fa698b;
+    text-decoration: none;
 }
 
 .footer a:hover {
-  color: #f1315e;
+    color: #f1315e;
 }
 
 .copyright {
-  font-size: 14px;
-  color: #5a5a5a;
-  margin-top: 20px;
-  text-align: left;
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-top: 20px;
+    text-align: left;
 }
+
 .header {
-  text-align: center;
+    text-align: center;
 }
+
 .newsletter {
-  text-justify: left;
-  text-align: center;
-  margin-top: 0;
-  padding-top: 0%;
+    text-justify: left;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0%;
 }
+
 .news {
-  text-align: center;
-  font-weight: 500;
-  font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
 }
+
 .subscribeBtn {
-  background: var(--second) !important;
+    background: var(--second) !important;
 }
