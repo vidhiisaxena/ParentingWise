@@ -184,3 +184,7 @@ h5 {
 .subscribeBtn {
   background: var(--second) !important;
 }
+ /*Blog Post*/
+ .recommended .title{
+    text-align: center;
+ }
