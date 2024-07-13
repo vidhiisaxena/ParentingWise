@@ -68,7 +68,7 @@ body {
     color: white;
     font-size: 15px;
     transition: color 0.3s ease;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .site-nav a:hover {
@@ -93,9 +93,9 @@ body {
 
 .text p {
     text-align: center;
-    font-size: 21px;
+    font-size: 19px;
     margin-top: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .tagline p {
@@ -125,8 +125,8 @@ body {
 }
 
 .babies-section h1 {
-    font-size: 30px;
-    font-family: serif;
+    font-size: 32px;
+    font-family: "Ubuntu", sans-serif;
     margin: 15px;
 
 }
@@ -144,8 +144,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
 
 .babies-section p {
@@ -153,7 +153,7 @@ body {
     color: black;
     margin-bottom: 40px;
     max-width: 1000px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .babies-section .buttons {
@@ -172,7 +172,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     transition: background-color 0.3s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 
 }
 
@@ -182,7 +182,7 @@ body {
 
 .contain {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,7 +192,7 @@ body {
 .bottom-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     animation-duration: 3s;
     animation-name: slidein;
 }
@@ -233,15 +233,20 @@ body {
     transition-timing-function: ease-in;
 }
 
+.boxs h1 {
+    font-family: "Ubuntu", sans-serif;
+}
+
 .boxs p {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .sleepblock p {
     text-align: center;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 20px;
 }
 
@@ -252,8 +257,8 @@ body {
     box-shadow: 0 0 10px rgb(247, 59, 129, 0.3);
     width: 300px;
     text-align: center;
-
     margin-left: 40%;
+    margin-bottom: 80px;
 }
 
 h1 {
@@ -307,6 +312,8 @@ li {
 
 .videos1 {
     margin: 50px;
+    margin-bottom: 50px;
+
 }
 
 footer {
