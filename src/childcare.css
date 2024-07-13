@@ -1,6 +1,25 @@
+:root {
+  --primary-color: #f1315e;
+  --second: #fa698b;
+  --third: #f3c9d3;
+}
+main {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+nav,
+footer {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.navbar-text{
+  display: flex;
+  justify-content: end;
+}
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
     background-color: rgb(255, 255, 255);
 }
 
@@ -253,4 +272,68 @@ footer {
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
+}
+/*footer*/
+.footer {
+  background-color: #f3c9d3;
+  padding: 18px 0;
+  border-top: 1px solid #fdfdfd;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.footer ul {
+  list-style: none;
+
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fa698b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f1315e;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin-top: 20px;
+  text-align: left;
+}
+.header {
+  text-align: center;
+}
+.newsletter {
+  text-justify: left;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0%;
+}
+.news {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.subscribeBtn {
+  background: var(--second) !important;
 }
