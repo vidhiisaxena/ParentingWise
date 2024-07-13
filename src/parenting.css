@@ -177,7 +177,7 @@ body {
 }
 
 .babies-section .buttons a:hover {
-    background-color: rgb(232, 229, 229);
+    background-color: #f3c9d3;
 }
 
 .contain {
@@ -213,23 +213,22 @@ body {
     width: 90vh;
     height: 76vh;
     padding: 20px;
-    border: 1px solid #fae6eb;
+    border: 1px solid #f3c9d3;
     border-radius: 10px;
     margin: 10px;
-    background: #f6cad5;
+    background: #f3c9d3;
     color: white !important;
-    font-weight: 100;
+    font-weight: 80;
     text-transform: none;
-
     display: inline-block;
     transition: all 0.5s ease 0s;
 }
 
 .boxs:hover {
-    color: #f8047ecc !important;
-    font-weight: 700 !important;
-    letter-spacing: 3px;
-    background: none;
+    color: #f1315e !important;
+    font-weight: 550 !important;
+    letter-spacing: 0.1px;
+    background: #f7f0f1;
     transition: all 0.5s ease 0s;
     transition-timing-function: ease-in;
 }
@@ -279,7 +278,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: rgb(247, 59, 129);
+    background-color: #fa698b;
     color: #fff;
     border: none;
     border-radius: 5px;
