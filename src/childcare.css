@@ -111,6 +111,47 @@ body {
     animation-duration: 3s;
     animation-name: slidein;
 }
+.contain {
+  max-width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+}
+@media (max-width: 400px) {
+  .contain{
+    flex-direction: column;
+    height: 100%;
+  }
+  .top-row{
+    flex-direction: column;
+    height: 76%;
+  }
+  .bottom-row{
+    flex-direction: column;
+    height: 76%;
+  }
+  .boxs{
+    flex-direction: column;
+    height: 76%;
+    max-width: 80vh;
+    max-height: 76vh;
+  
+  }
+ }
+
+.top-row,
+.bottom-row {
+  max-width: fit-content;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
 
 @keyframes slidein {
     from {
