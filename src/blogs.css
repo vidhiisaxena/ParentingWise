@@ -7,6 +7,15 @@ main {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
 }
+.contain{
+  display: flex;
+  gap: 2rem;
+}
+@media (min-width: 1170px){
+  .contain{
+    display: block;
+  }
+}
 nav,
 footer {
   font-family: "Ubuntu", sans-serif;
