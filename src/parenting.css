@@ -197,6 +197,14 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.contain{ 
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;}
+ 
 @media (max-width: 400px) {
   .contain{
     flex-direction: column;
