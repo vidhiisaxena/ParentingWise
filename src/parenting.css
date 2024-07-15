@@ -192,6 +192,7 @@ body {
 
 .contain {
     max-width: 1200px;
+    max-hieght: 50vh;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
