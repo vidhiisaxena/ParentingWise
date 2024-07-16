@@ -478,3 +478,151 @@ footer {
 .subscribeBtn {
     background: var(--second) !important;
 }
+@media (max-width: 800px) and (min-width: 400px) {
+    .text h1 {
+      font-size: 40px;
+      padding-top: 20px;
+    }
+  
+    .text p {
+      font-size: 14px;
+      padding: 20px;
+      padding-bottom: 0px;
+    }
+  
+    .tagline p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+    .buttons a {
+      font-size: 13px !important;
+      padding: 8px 15px !important;
+      display: inline-block !important;
+      text-align: center !important;
+    }
+  
+    .buttons {
+      text-align: center;
+    }
+  
+    .babies-section h1 {
+      font-size: 20px !important;
+      font-weight: 500;
+    }
+  
+    .babies-section p {
+      font-size: 13px;
+    }
+  
+    .top-row,
+    .bottom-row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .boxs {
+      margin-bottom: 20px;
+      width: 70%;
+      height: 100%;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+  
+    .boxs h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .boxs p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+  
+    .main .text h1 {
+      font-size: 40px;
+      padding-top: 20px;
+    }
+  
+    .main .text p {
+      font-size: 14px;
+      padding: 20px;
+      padding-bottom: 0;
+    }
+  
+    .main .tagline p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+    .main .buttons a {
+      font-size: 13px !important;
+      padding: 8px 15px !important;
+      display: inline-block !important;
+      text-align: center !important;
+    }
+  
+    .main .buttons {
+      text-align: center;
+    }
+  
+    .babies-section h1 {
+      font-size: 20px !important;
+      font-weight: 500;
+    }
+  
+    .babies-section p {
+      font-size: 13px;
+    }
+  
+    .top-row,
+    .bottom-row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .boxs {
+      margin-bottom: 20px;
+      width: 70%;
+      height: 100%;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+  
+    .boxs h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .boxs p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+  
+    .contain .top-row,
+    .contain .bottom-row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .contain .boxs {
+      margin-bottom: 20px;
+      width: 70%;
+      height: 100%;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+  
+    .contain .boxs h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .contain .boxs p {
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+  }
