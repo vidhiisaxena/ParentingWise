@@ -1,8 +1,8 @@
 # ParentingWise
 Welcome to Parenting Wise, your ultimate resource for navigating the journey of parenthood. Whether you're a first-time parent, managing the chaos of toddlers, or dealing with the unique challenges of teenagers, our website is here to support you every step of the way. Our website is dedicated to supporting parents and parents-to-be with reliable information and helpful tools.
 
-# About Our Website
-At ParentingWise, we offer a wide range of resources to assist parents at different stages of their journey. Whether you're expecting a baby, raising a toddler, or navigating the challenges of school-age children, we have something for everyone.
+## About Our Website
+At ParentingWise, we offer a wide range of resources to assist parents at different stages of their journey. Whether you're expecting a baby, raising a toddler, or navigating the challenges of school-age children, we have something for everyone. Technical Stacks used are HTML, CSS and Bootstrap.
 
 Our comprehensive platform offers:
 
@@ -12,12 +12,12 @@ Our comprehensive platform offers:
 4. Holistic Approach: Information on physical health, nutrition, education, and emotional well-being to support the overall development of your child.
 Join us at Parenting wise to gain the knowledge, confidence, and community support you need to navigate the beautiful yet challenging journey of raising children. Together, we can create a nurturing environment where both parents and children thrive.
 
-### 💵 How to Contribute
+### How to Contribute
 
    #### 1. Fork the repository to your GitHub account.
    #### 2. Clone the forked repository to your local machine.
    ```bash
-   git clone https://github.com/ayush-that/ParentingWise.git
+   git clone https://github.com/vidhiisaxena/ParentingWise.git
    ```
    #### 3. Create a new branch for your changes.
    ```bash
